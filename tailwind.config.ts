@@ -8,11 +8,26 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      backgroundColor: {
+        'primary' : '#ffc33d',
+        'secondary' : '#0E0A04',
+        'hq' : '#F5F5DC'
       },
+      fontFamily: {
+        'primary': 'Good Timing',
+        'secondary' : 'Bangers',
+        'terciary' : 'Bebas Neue'
+      },
+      colors: {
+        'primary' : '#FFC33D',
+        'secondary' : '#0e0a04'
+      },
+      borderColor : {
+        'primary' : '#FFC33D'
+      },
+      height: {
+        'lp' : '34rem'
+      }
     },
   },
   plugins: [],
