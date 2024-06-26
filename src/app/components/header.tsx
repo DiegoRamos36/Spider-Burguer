@@ -19,13 +19,13 @@ const Header = ()  => {
       <Link href={'/'} className="font-primary text-primary text-2xl">Spider Burguer</Link>
       <div className={`text-primary flex gap-5 ${bebasneue.className}` }>
        
-        <Button tipo={'outlined'} to='logar'>
+        <Button item="flex" tipo={'outlined'} to='logar'>
           <LogIn />
           LOGAR
         </Button>
   
  
-          <Button tipo='filled' to="register">
+          <Button item="flex" tipo='filled' to="register">
             <PlusCircle />
             CRIAR CONTA
           </Button>
