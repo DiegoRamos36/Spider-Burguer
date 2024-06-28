@@ -1,5 +1,5 @@
 
-import BuscarSection from "./buscarSection";
+import BuscarSection from "./BuscarSection";
 import Lancamentos from "./lancamentos";
 import LandingPage from "./landingPage";
 

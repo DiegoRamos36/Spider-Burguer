@@ -11,7 +11,7 @@ const bebasneue = Bebas_Neue({subsets: ['latin'], weight: ['400']})
 const Header = ()  => {
   return (
     <nav className="bg-secondary w-screen py-3 fixed md:static">
-      <div className="flex items-center justify-between w-10/12 m-auto">
+      <div className="flex items-center justify-between w-11/12 md:w-10/12 m-auto">
       <div className="flex gap-10">
         <Link href={'/'}><Image src={insta} width={35} height={35} alt="Redirect Instagram" /></Link>
        <Link href={'/'}><Image src={whatsapp} width={35} height={35} alt="Redirect Whatsapp" /></Link>

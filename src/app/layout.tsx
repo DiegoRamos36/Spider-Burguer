@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 
 export const metadata: Metadata = {
@@ -16,10 +17,9 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className="bg-hq">
-        <div>
           <Header />
           {children}
-        </div>
+          <Footer />
         </body>
     </html>
   );
