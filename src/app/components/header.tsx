@@ -4,7 +4,7 @@ import whatsapp from '@/app/assets/whatsapp-svgrepo-com.svg'
 import Image from "next/image";
 import Link from "next/link";
 import {Bebas_Neue} from "next/font/google"
-import Button from "./Button";
+import Redirect from "./Redirect";
 
 const bebasneue = Bebas_Neue({subsets: ['latin'], weight: ['400']})
 
@@ -19,16 +19,16 @@ const Header = ()  => {
       <Link href={'/'} className="font-primary text-primary text-2xl">Spider Burguer</Link>
       <div className={`text-primary flex gap-5 ${bebasneue.className}` }>
        
-        <Button item="flex" tipo={'outlined'} to='logar'>
+        <Redirect item="flex" tipo={'outlined'} to='logar'>
           <LogIn />
           LOGAR
-        </Button>
+        </Redirect>
   
  
-          <Button item="flex" tipo='filled' to="register">
+          <Redirect item="flex" tipo='filled' to="register">
             <PlusCircle />
             CRIAR CONTA
-          </Button>
+          </Redirect>
       </div>
       </div>
   </nav>

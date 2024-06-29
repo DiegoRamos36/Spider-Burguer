@@ -1,5 +1,5 @@
 import { Bangers } from "next/font/google";
-import Button from "./components/Button";
+import Button from "./components/Redirect";
 import Image from "next/image";
 import Bg from '@/app/assets/Rectangle 37.png'
 

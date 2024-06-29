@@ -3,7 +3,7 @@
 import { Bebas_Neue } from "next/font/google"
 import { Bangers } from "next/font/google"
 import Image, { StaticImageData } from "next/image"
-import Button from "./components/Button"
+import Redirect from "./components/Redirect"
 import Burger from "@/app/assets/otohambuguer.jpg"
 import React from "react"
 
@@ -79,7 +79,7 @@ const Lancamentos = () => {
             <h1 className={`${bangers.className} text-4xl`}>{itemNav[active].title}</h1>
             <p className="my-5 leading-6">{itemNav[active].teste}</p>
             <div>
-              <Button tipo="filled" item="inline-block" to={'/'}>JÁ QUERO EXPERIMENTAR</Button>
+              <Redirect tipo="filled" item="inline-block" to={'/'}>JÁ QUERO EXPERIMENTAR</Redirect>
             </div>
           
           </div>

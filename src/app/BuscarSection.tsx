@@ -6,7 +6,7 @@ import { Bebas_Neue } from "next/font/google";
 import Image from "next/image";
 import React from "react";
 import Burger from "@/app/assets/otohambuguer.jpg"
-import Button from "./components/Button";
+import Button from "./components/Redirect";
 
 const bangers = Bangers({subsets: ['latin'], weight: ['400']})
 const bebas = Bebas_Neue({subsets: ['latin'], weight: ['400']})
